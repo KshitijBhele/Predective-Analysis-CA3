@@ -1,0 +1,11 @@
+Configuration,Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC,PR-AUC
+With PageValues,Logistic Regression,0.8525,0.519,0.788,0.6258,0.9109,0.6623
+With PageValues,Decision Tree,0.8476,0.5077,0.8613,0.6388,0.9196,0.7177
+With PageValues,Random Forest,0.8767,0.5796,0.7723,0.6622,0.9295,0.7192
+With PageValues,Gradient Boosting,0.9062,0.7284,0.6387,0.6806,0.9372,0.7444
+With PageValues,Dummy,0.7374,0.1636,0.1649,0.1643,0.5043,0.2296
+Without PageValues,Logistic Regression,0.6346,0.2673,0.767,0.3965,0.7509,0.3182
+Without PageValues,Decision Tree,0.646,0.2678,0.7277,0.3915,0.7457,0.3498
+Without PageValues,Random Forest,0.7268,0.3066,0.5916,0.4039,0.7676,0.3447
+Without PageValues,Gradient Boosting,0.8415,0.4528,0.0628,0.1103,0.7843,0.3564
+Without PageValues,Dummy,0.7374,0.1636,0.1649,0.1643,0.5043,0.2296

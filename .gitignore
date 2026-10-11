@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+.config/
+sample_data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
