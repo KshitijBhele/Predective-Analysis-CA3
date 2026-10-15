@@ -22,3 +22,11 @@ sample_data/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Large files (>100MB cannot be pushed to GitHub)
+item_properties_part1.csv
+item_properties_part2.csv
+archive (1)/item_properties_part1.csv
+archive (1)/item_properties_part2.csv
+archive/item_properties_part1.csv
+archive/item_properties_part2.csv

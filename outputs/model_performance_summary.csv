@@ -1,11 +1,21 @@
-Configuration,Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC,PR-AUC
-With PageValues,Logistic Regression,0.8525,0.519,0.788,0.6258,0.9109,0.6623
-With PageValues,Decision Tree,0.8476,0.5077,0.8613,0.6388,0.9196,0.7177
-With PageValues,Random Forest,0.8767,0.5796,0.7723,0.6622,0.9295,0.7192
-With PageValues,Gradient Boosting,0.9062,0.7284,0.6387,0.6806,0.9372,0.7444
-With PageValues,Dummy,0.7374,0.1636,0.1649,0.1643,0.5043,0.2296
-Without PageValues,Logistic Regression,0.6346,0.2673,0.767,0.3965,0.7509,0.3182
-Without PageValues,Decision Tree,0.646,0.2678,0.7277,0.3915,0.7457,0.3498
-Without PageValues,Random Forest,0.7268,0.3066,0.5916,0.4039,0.7676,0.3447
-Without PageValues,Gradient Boosting,0.8415,0.4528,0.0628,0.1103,0.7843,0.3564
-Without PageValues,Dummy,0.7374,0.1636,0.1649,0.1643,0.5043,0.2296
+Dataset,Configuration,Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC,PR-AUC
+UCI Shoppers,With PageValues,Logistic Regression,0.8525,0.519,0.788,0.6258,0.9109,0.6623
+UCI Shoppers,With PageValues,Decision Tree,0.848,0.5085,0.8586,0.6388,0.9232,0.7215
+UCI Shoppers,With PageValues,Random Forest,0.8767,0.5796,0.7723,0.6622,0.9295,0.7192
+UCI Shoppers,With PageValues,Gradient Boosting,0.9062,0.7284,0.6387,0.6806,0.9372,0.7444
+UCI Shoppers,With PageValues,Dummy Classifier,0.7374,0.1636,0.1649,0.1643,0.5043,0.2296
+UCI Shoppers,Without PageValues (Safe),Logistic Regression,0.6346,0.2673,0.767,0.3965,0.7509,0.3182
+UCI Shoppers,Without PageValues (Safe),Decision Tree,0.7288,0.3103,0.5995,0.4089,0.739,0.3862
+UCI Shoppers,Without PageValues (Safe),Random Forest,0.7268,0.3066,0.5916,0.4039,0.7676,0.3447
+UCI Shoppers,Without PageValues (Safe),Gradient Boosting,0.8415,0.4528,0.0628,0.1103,0.7843,0.3564
+UCI Shoppers,Without PageValues (Safe),Dummy Classifier,0.7374,0.1636,0.1649,0.1643,0.5043,0.2296
+Retailrocket,Early-Stage Browsing (Pre-Cart),Logistic Regression,0.8614,0.6294,0.9441,0.7553,0.9195,0.7079
+Retailrocket,Early-Stage Browsing (Pre-Cart),Decision Tree,0.8735,0.6495,0.9603,0.7749,0.9597,0.8098
+Retailrocket,Early-Stage Browsing (Pre-Cart),Random Forest,0.8728,0.6474,0.9633,0.7743,0.9619,0.8622
+Retailrocket,Early-Stage Browsing (Pre-Cart),Gradient Boosting,0.903,0.7837,0.7901,0.7869,0.963,0.8678
+Retailrocket,Early-Stage Browsing (Pre-Cart),Dummy Classifier,0.6588,0.2386,0.2308,0.2347,0.5075,0.3219
+Retailrocket,Full-Funnel Journey (With Cart),Logistic Regression,0.9515,0.8765,0.9147,0.8952,0.9822,0.9292
+Retailrocket,Full-Funnel Journey (With Cart),Decision Tree,0.9653,0.8962,0.9578,0.926,0.9886,0.9574
+Retailrocket,Full-Funnel Journey (With Cart),Random Forest,0.971,0.9255,0.9484,0.9368,0.9914,0.963
+Retailrocket,Full-Funnel Journey (With Cart),Gradient Boosting,0.9757,0.9544,0.9377,0.946,0.9915,0.962
+Retailrocket,Full-Funnel Journey (With Cart),Dummy Classifier,0.6588,0.2386,0.2308,0.2347,0.5075,0.3219
